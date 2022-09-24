@@ -7,6 +7,10 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --color-titulos: #464646;
+   --color-fundo-azul: #eaf2ea;
+   --color-caixas: #fbfbfb;
+   --azul-botoes: #2a7ae4;
 }
 
 body {
@@ -41,14 +45,49 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 section.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0px 153px;
+}
+
+section.menu header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: var(--color-titulos);
+}
+
+nav ul.menu__list{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    font-size: 16px;
 
 }
 
+header img{
+    margin-right: 16px;
+}
 /*Sessão Title*/
 
 section.title{
+    margin: 32px 0px;
 
 }
+
+div.title__container{
+ width: 800px;
+}
+
+    div.title__container h2{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 50px;
+    }
 
 /*Sessão About*/
 
