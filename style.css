@@ -1,11 +1,9 @@
 /*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
@@ -27,55 +25,56 @@ a{
     color: var(--cor-de-link);
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
 
-Lo que es el BEM?
+Mas o que é o BEM?
 
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
 
-Enlace de la documentación oficial!
+Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sección Menu*/
+/*Sessão Menu*/
 
 section.menu{
 
 }
 
-/*Sección Title*/
+/*Sessão Title*/
 
 section.title{
 
 }
 
-/*Sección About*/
+/*Sessão About*/
 
 section.about{
 
 }
 
-/*Sección Hobbies*/
+/*Sessão Hobbies*/
 
 section.hobbies{
     
 }
 
-/* Experiencia Académica*/
+/* Experiência Acadêmica*/
 
 section.academic{
 
 }
 
-/* experiencia*/
+/* experiência*/
 
 section.experience{
 
 }
 
-/*Contacto*/
+/*Contato*/
 
 section.formcontato{
 
@@ -87,14 +86,13 @@ section.footer{
    
 }
 
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
 @media (min-width: 768px) {
 
-/* Menú */
+/* Menu */
 
 /*title*/
 
@@ -102,9 +100,9 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Hobbies*/
 
-/*Formación Académica*/
+/*Experiências acadêmicas*/
 
-/*Experiencia Profesional*/
+/*Expeirência profissional*/
 
 }
 
@@ -115,17 +113,17 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Titulo*/
 
-/*Sección sobre mi*/
+/*Sessão sobre*/
 
 /*Skills*/
 
 /*Hobbies*/
  
-/*Formación Académica*/
+/*Formação Acadêmica*/
 
-/*Experiencia Profesional*/
+/*Experiência Profissional*/
 
- /*Contacto*/
+ /*Contato*/
 
 /*Footer*/
 
