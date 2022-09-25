@@ -273,20 +273,37 @@ section.experience{
 section.formcontato{
     padding: 64px 0px;
 }
+
     section.formcontato div.formcontato__contacto{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+    }
+
+    section.formcontato div.formcontato__contacto div.formcontato__text{
+        text-align: start;
+        margin-bottom: 8px;
+        padding-left: 2rem;
     }
 
     section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form{
-        flex-direction: column;
+        text-align: start;
+        margin-bottom: 8px;
+    }
 
+    section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form input{
+        text-align: start;
+        margin-bottom: 10px;
+    }
+
+    section.formcontato div.formcontato__contacto div.formcontato__text form.formcontato__form textarea{
+        text-align: start;
+        margin-bottom: 10px;
     }
 
 /*footeer*/
 
 section.footer{
-   
+   text-align: center;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
